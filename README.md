@@ -6,7 +6,7 @@ Here are the data for the project:
 
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ]
 
-We should create one R script called run_analysis.R that does the following:
+We should create one R script called run_analysis.R that does the following:    
 1.Merges the training and the test sets to create one data set.   
 2.Extracts only the measurements on the mean and standard deviation for each measurement.    
 3.Uses descriptive activity names to name the activities in the data set.   
@@ -15,14 +15,14 @@ We should create one R script called run_analysis.R that does the following:
 
 
 
-We are assuming that we have the current files in the working directory:
-1.subject_test
-2.X_test
-3.y_test
-4.features
-5.subject_train
-6.X_train
-7.y_train
+We are assuming that we have the current files in the working directory:    
+1.subject_test    
+2.X_test    
+3.y_test    
+4.features    
+5.subject_train    
+6.X_train    
+7.y_train    
 
 First we make a data.frame including the data related to the test case. We call it main.test. To do that first we put the feature names in the column names of X-test then we cbind the result with subject-test and y-test.
 
